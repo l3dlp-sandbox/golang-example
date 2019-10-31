@@ -1,0 +1,13 @@
+
+
+pool:
+  order: 1 #0-Random, 1-Order_by_key, 2-OrderPreserved
+  num_of_workers: 100
+  buffer_size: 100
+  num_of_producers: 12
+
+changelog:
+  buffered: false
+  buffer_size: 100
+  replication_factor: 3
+  min_isr: 2

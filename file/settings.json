@@ -1,0 +1,53 @@
+{
+        "server": {
+                "port": "8042",
+                "mode": "debug",
+				"location": "Asia/Colombo"
+        },
+        "database": {
+                "mysql": {
+
+                        "url": "myroot:Pa685w0rd@(10.240.0.17:3307)/Eztaxi",
+						 "readUrl": "myroot:Pa685w0rd@(10.240.0.17:3307)/Eztaxi"
+                },
+                "redis": {
+                        "address": "10.240.0.15:6379",
+                        "password": "",
+                        "db": 0,
+						"userGroup":1,
+						"accountGroup":2,
+						"accountTopUpGroup":3
+                }
+        },
+
+
+        "interblocks": {
+                "url": "https://inappuat.interblocks.com/ipg/servlet_exppear",
+                "password": "L9jXOncU%M",
+                "key": "TDlqWE9uY1UlTUlOQVBQTUVSQ",
+                "merchantId": "INAPPMERCH",
+			   "gatewayErrorCodes" : [
+                    "ERR_27_29", "ERR_27_32", "ERR_27_36", "ERR_27_37","ERR_27_38","ERR_27_39","ERR_27_40","ERR_27_41","ERR_27_46","ERR_27_50","ERR_27_58","ERR_27_59","ERR_27_60","ERR_27_61","ERR_27_62","ERR_27_63","ERR_27_64","ERR_27_66","ERR_27_67","ERR_27_69","ERR_27_70","ERR_27_71","ERR_27_72","ERR_27_74","ERR_27_77"],
+				"allErrorCodes":["ERR_27_29", "ERR_27_32", "ERR_27_36", "ERR_27_37","ERR_27_38","ERR_27_39","ERR_27_40","ERR_27_41","ERR_27_50","ERR_27_58","ERR_27_59","ERR_27_60","ERR_27_61","ERR_27_62","ERR_27_63","ERR_27_64","ERR_27_66","ERR_27_67","ERR_27_69","ERR_27_70","ERR_27_71","ERR_27_72","ERR_27_74","ERR_27_77","ERR_27_27","ERR_27_28","ERR_27_30","ERR_27_31","ERR_27_33","ERR_27_34","ERR_27_35","ERR_27_42","ERR_27_43","ERR_27_44","ERR_27_45","ERR_27_47","ERR_27_48","ERR_27_51","ERR_27_51","ERR_27_52","ERR_27_53","ERR_27_54","ERR_27_55","ERR_27_56","ERR_27_57","ERR_27_65","ERR_27_68","ERR_27_73","ERR_27_75","ERR_27_76","ERR_27_78","ERR_27_79"],
+				"receiver":["krithi@pickme.lk","tharaka@pickme.lk"],
+				"insufficientMsg":"ERR_27_46",
+				"asyncPassangerInfoMsgID":40,
+				"nonAsyncPassangerInfoMsgID":43,
+				"cardDeclineReason":"card decline",
+				"maxCreditAmount":500.0
+        },
+        "wallet":{
+				"minAccountAmount": "-500",
+               	"maxTopUplimit" : "5000",
+				"topupAmounts":"100,200,300,400,500",
+				"minAvailableBalance": 50.0
+        },
+        "card":{
+            "currentCardUsageLimit":"10,000.00"
+           },
+	"messagingServerBaseUrl": "http://35.184.75.146:8004",
+	"driverImageLocation": "http://cdn.mytaxi.lk/public/uploads/driver_image/",
+	"smsDeclineFilePath": "decline_sms.xml",
+	"adverticeImage":4,
+	"adverticeUrl":" http://newcdn.mytaxi.lk/public/ad-banners/"
+}
