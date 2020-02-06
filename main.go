@@ -3,7 +3,7 @@ package main
 import (
 	_ "github.com/go-sql-driver/mysql"
 	_ "net/http/pprof"
-	"test/test/mapJsonToStruct"
+	"test/test/urlParsing"
 )
 
 func main() {
@@ -254,5 +254,11 @@ func main() {
 	//Myjson.ComplexJson()
 	//http.CustomRequest()
 	//protobuff.ProtoDemo()
-	mapJsonToStruct.MapJsonToStruct()
+	//mapJsonToStruct.MapJsonToStruct()
+	//dateFormat.DateFormat()
+	//deffer.DefferDemo()
+	//xmlToCsv.XmlToCsv()
+
+	//typeConversion.TypeConversionDemo()
+	urlParsing.UrlParsingDemo()
 }
