@@ -530,7 +530,7 @@ func SendTripCreated() {
 	loc2 = append(loc2, l)
 	t.Body.Drop.Location = loc2
 
-	t.Body.Promotion.Code = "test"
+	t.Body.Promotion.Code = "_test"
 
 	r := []int{}
 	r = append(r, 1)

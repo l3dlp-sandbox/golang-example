@@ -1,4 +1,4 @@
-package database
+package dbconnection
 
 import (
 	"gitlab.mytaxi.lk/pickme/go-util/mysql"

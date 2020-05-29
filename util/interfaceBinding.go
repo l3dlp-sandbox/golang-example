@@ -1,6 +1,7 @@
 package util
+
 //
-//type test interface {
+//type _test interface {
 //	check()
 //}
 //type name struct {
@@ -11,7 +12,7 @@ package util
 //}
 //
 //func main()  {
-//	var v test=&name{} //possible because interface is reference type
-//	var c test=name{} //impossible because interface is just reference type
-//	var c test=new(name) //possible because i don't know
+//	var v _test=&name{} //possible because interface is reference type
+//	var c _test=name{} //impossible because interface is just reference type
+//	var c _test=new(name) //possible because i don't know
 //}

@@ -1,14 +1,14 @@
 package api
 
 import (
-	"net/http"
 	"fmt"
+	"net/http"
 )
 
-func CreateRequestAnotherWay(){
-	http.HandleFunc("/test",HelloTest)
-	http.ListenAndServe(":8080",nil)
+func CreateRequestAnotherWay() {
+	http.HandleFunc("/_test", HelloTest)
+	http.ListenAndServe(":8080", nil)
 }
-func HelloTest(w http.ResponseWriter,r *http.Request)  {
-	fmt.Fprintln(w,"generate")
+func HelloTest(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintln(w, "generate")
 }

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	_ "net/http/pprof"
-	"test/test/urlParsing"
 )
 
 func main() {
@@ -34,16 +34,16 @@ func main() {
 	//ba:=encription.GetNewCiperBlock("")
 	//hba:=encription.HexEncription(ba)
 	//fmt.Println(string(hba))
-	///////dba,_:=encription.DeHexString("67656e65726174656369706589a176a970ec80321e202")
+	//dba,_:=encription.DeHexString("67656e65726174656369706589a176a970ec80321e202")
 
 	//970ea89371c2c36b272548246e6d57a3b640d80e2589a
-	//dba,_:=encription.DeHexString("970ea89371c2c36b272548246e6d57a3b640d80e2589a")
-	//dba,_:=encription.DeHexString("67656e65726174656369706589a176a970ea89371c2c36b272548246e6d57a3b640d80e2589a")
+	//dba,_:=encription.DeHexString("67656e65726174656369706589a17fa970e9833319264e120c8c9b41bbc187e2bd80bf761fe6")
+	////dba,_:=encription.DeHexString("67656e65726174656369706589a176a970ea89371c2c36b272548246e6d57a3b640d80e2589a")
 	//ds:=encription.Decrypt(dba,"password")
 	//fmt.Println(string(ds))
 	//memoryUsage.GoMemoryUsage()
-	//log.Println("log test")
-	//clog.Info("log test")
+	//log.Println("log _test")
+	//clog.Info("log _test")
 	////encription.EncodeStringInHexaDecimal()
 	//encription.CreateHash()
 	//encription.GetNewCiperBlock(encription.CreateHash())
@@ -163,7 +163,7 @@ func main() {
 	//	//Myjson.JsonMarshal()
 	//	//Myjson.JsonUnMarshal()
 	//
-	//	//log.Info(log.WithPrefix("test","working"))
+	//	//log.Info(log.WithPrefix("_test","working"))
 	//
 	//	//v:="12345"
 	//	//i,err:=strconv.Atoi(v)
@@ -260,5 +260,17 @@ func main() {
 	//xmlToCsv.XmlToCsv()
 
 	//typeConversion.TypeConversionDemo()
-	urlParsing.UrlParsingDemo()
+	//urlParsing.UrlParsingDemo()
+	//syncPackage.BenchMarkWithoutPool()
+	//database.AccountIdTest()
+	//time.TimeDemo()
+	//pointerReceiverMethodAndIteration.Demo()
+	//pointerReceiverMethodAndIteration.DeferWithRange()
+
+	s := [4]string{"A", "B", "C", "D"}
+	for x, i := range s[:2] {
+		fmt.Println(x)
+		fmt.Println(i)
+	}
+
 }

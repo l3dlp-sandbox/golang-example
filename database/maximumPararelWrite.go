@@ -1,4 +1,4 @@
-package database
+package dbconnection
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ func RunParalelWrite()  {
 
 func sqlWrite(i int){
 	//defer wg.Done()
-	_,err:=Db.Exec("INSERT INTO test(data) VALUES(?)",i)
+	_,err:=Db.Exec("INSERT INTO _test(data) VALUES(?)",i)
 	if err!=nil{
 		fmt.Println(err)
 	}
