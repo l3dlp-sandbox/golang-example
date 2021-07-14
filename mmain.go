@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	_ "net/http/pprof"
 )
@@ -266,11 +265,45 @@ func main() {
 	//time.TimeDemo()
 	//pointerReceiverMethodAndIteration.Demo()
 	//pointerReceiverMethodAndIteration.DeferWithRange()
-
-	s := [4]string{"A", "B", "C", "D"}
-	for x, i := range s[:2] {
-		fmt.Println(x)
-		fmt.Println(i)
-	}
-
+    //jwt.JwtMain()
+	//context.WithTimeOutDemo()
+	//enterprices_customer.MainEnterpricesCustomer()
+	//sm.StructMapDemo()
+	//type gmoStatus struct {
+	//	ShopId []string `json:"ShopID"`
+	//	ShopPass	[]string `json:"ShopPass"`
+	//	AccessID	string `json:"AccessID"`
+	//	AccessPass string `json:"AccessPass"`
+	//	OrderID string `json:"OrderID"`
+	//	Status string `json:"Status"`
+	//	JobCd	string `json:"JobCd"`
+	//	Amount  string `json:"Amount"`
+	//	Tax     float32 `json:"Tax"`
+	//	Currency string `json:"Currency"`
+	//	Forward string `json:"Forward"`
+	//	PayTimes string `json:"PayTimes"`
+	//	TranID  int64 `json:"TranID"`
+	//	Approve int64 `json:"Approve"`
+	//	TranDate string `json:"TranDate"`
+	//	ErrCode string `json:"ErrCode"`
+	//	ErrInfo string `json:"ErrInfo"`
+	//	PayType string `json:"PayType"`
+	//}
+	//http.HandleFunc("/status", func(writer http.ResponseWriter, request *http.Request) {
+	//	err:=request.ParseForm()
+	//	if err !=nil{
+	//		fmt.Println(err)
+	//	}
+	//	fmt.Println(request.Form)
+	//	var gmo gmoStatus
+	//	b,_:=json.Marshal(request.Form)
+	//	err=json.Unmarshal(b,&gmo)
+	//	if err !=nil{
+	//		fmt.Println(err)
+	//	}
+	//	fmt.Println("marshaled:",gmo)
+	//})
+	//http.ListenAndServe(":8080",nil)
+	//s:=fmt.Sprintf()
 }
+

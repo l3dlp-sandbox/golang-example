@@ -13,11 +13,15 @@ func avg(nos ...int)int{
 	return sum/len(nos)
 }
 
-func readN(r io.Reader, n int)(string,error){
+func ReadN(r io.Reader, n int)(string,error){
 	buf:=make([]byte,n)
 	m,err:=r.Read(buf)
 	if err!=nil{
 		return "",err
 	}
 	return string(buf[:m]),nil
+}
+
+func Print(){
+
 }

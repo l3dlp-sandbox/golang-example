@@ -9,7 +9,7 @@ import (
 )
 
 func TestConnectionOff(){
-	database.Init(
+	Init(
 		database.WithReadConfig(&mq.Config{
 			//Timeout: 100 * time.Millisecond,
 			//ReadTimeout: 100 * time.Millisecond,

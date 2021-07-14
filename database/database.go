@@ -13,8 +13,9 @@ var Db *sql.DB
 
 func Init() {
 
-	//db, err := sql.Open("mysql", "root:@tcp(localhost:3306)/testdriver")
-	db, err := sql.Open("mysql", )
+	db, err := sql.Open("mysql", "root:@tcp(localhost:3306)/testdriver")
+
+	//db, err := sql.Open("mysql", )
 	//db,err:=sql.Open("mysql","surath:t5uveBaf@(192.168.180.132:3307)/Eztaxi")
 	if err != nil {
 		panic(err.Error())

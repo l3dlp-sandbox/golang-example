@@ -21,7 +21,7 @@ func TestReadN_bufSize(t *testing.T)  {
 			return 0,nil
 		},
 	}
-	readN(mr,5)
+	ReadN(mr,5)
 	if total !=5{
 		t.Fatalf("expected 5, got %d",total)
 	}
