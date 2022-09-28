@@ -1,0 +1,1451 @@
+{
+  "app-loyalty-v2-ui-test": {
+    "_id": "app-loyalty-v2-ui-test",
+    "analytics": {
+      "evtName": "Screen Display",
+      "evtData": {
+        "Screen Name": "Quest page",
+        "Owner": "CX"
+      }
+    },
+    "widgets": [
+      {
+        "type": "page-navigation-bar",
+        "id": "app-loyalty-v2-ui-test-w-page-navigation-bar-1",
+        "header": {
+          "title": "QUI1quest_nav_titleQUI2Circles.Life QuestsQUI3"
+        },
+        "components": null
+      },
+      {
+        "type": "list",
+        "id": "app-loyalty-v2-ui-test-w-list-1",
+        "components": [
+          {
+            "type": "tile-image",
+            "data": {
+              "image_url": "QUI1quest_tile_imageQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/January+21+Quests/Quests-DashBanner-Jan21.pngQUI3"
+            }
+          },
+          {
+            "type": "tile-text",
+            "data": {
+              "subtitle": "QUI1quest_tile_subtitleQUI2Welcome to your Circles.Life Quests dashboard. Complete the quests below to win awesome rewards! Do check back frequently for newly added quests.QUI3",
+              "title": "QUI1quest_tile_titleQUI2A World of Rewards AwaitsQUI3"
+            }
+          }
+        ]
+      },
+      {
+        "type": "bordered-list",
+        "id": "app-loyalty-v2-ui-test-w-bordered-list-1",
+        "header": {
+          "title": "QUI1quest_list_titleQUI2Your QuestsQUI3"
+        },
+        "components": [
+          {
+            "type": "tile-progress-tracker",
+            "data": {
+              "id": "602cfebce22d9a00109b0ba7",
+              "tileImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/November+Quests/ProGamer-Locked%403x.png",
+              "title": "e2e Single challenge",
+              "description": "a simple challenge modified",
+              "rewardImage": "QUI1quest_reward_inprogress_imageQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/Reward-Locked%403x.pngQUI3",
+              "rewardText": "50MB- will be changed",
+              "progressionText": "0 / 13 sms",
+              "status": "INPROGRESS",
+              "reward": {
+                "type": "DIRECT",
+                "benefit": {
+                  "id": "602cfebce22d9a00109b0ba3",
+                  "title": "50MB- will be changed",
+                  "tnc": "you win this has been edited"
+                }
+              }
+            }
+          },
+          {
+            "type": "tile-progress-tracker",
+            "data": {
+              "id": "602cff9de22d9a00109b0bb0",
+              "tileImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/November+Quests/ProGamer-Locked%403x.png",
+              "title": "e2e Single challenge 2",
+              "description": "another single challenge",
+              "rewardImage": "QUI1quest_reward_inprogress_imageQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/Reward-Locked%403x.pngQUI3",
+              "rewardText": "QUI1quest_spin_n_win_textQUI2Spin N WinQUI3",
+              "progressionText": "0 / 9 mins",
+              "status": "INPROGRESS",
+              "reward": {
+                "type": "SPIN",
+                "benefits": [
+                  {
+                    "id": "5f342095c217063b9f43d442",
+                    "title": "Bonus 200 MB",
+                    "tnc": "Bonus data is applicable for this month only. It can take up to 10 minutes to be reflected on your dashboard"
+                  }
+                ],
+                "allocated_benefit": {
+                  "id": "5f342095c217063b9f43d442",
+                  "title": "Bonus 200 MB",
+                  "tnc": "Bonus data is applicable for this month only. It can take up to 10 minutes to be reflected on your dashboard"
+                }
+              }
+            }
+          },
+          {
+            "type": "tile-progress-tracker",
+            "data": {
+              "id": "602d0312e22d9a00109b0bcd",
+              "tileImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/November+Quests/ProGamer-Locked%403x.png",
+              "title": "e2e sms trail challenge 1",
+              "description": "an sms trail",
+              "rewardImage": "QUI1quest_reward_inprogress_imageQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/Reward-Locked%403x.pngQUI3",
+              "rewardText": "A Direct reward",
+              "progressionText": "0 / 1 messages",
+              "status": "INPROGRESS",
+              "reward": {
+                "type": "DIRECT",
+                "benefit": {
+                  "id": "602d0311e22d9a00109b0bc9",
+                  "title": "A Direct reward",
+                  "tnc": "you win"
+                }
+              }
+            }
+          },
+          {
+            "type": "tile-progress-tracker",
+            "data": {
+              "id": "602d0511e22d9a00109b0bde",
+              "tileImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/November+Quests/AON1-Locked%403x.png",
+              "title": "e2e voice trail challenge direct",
+              "description": "direct",
+              "rewardImage": "QUI1quest_reward_inprogress_imageQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/Reward-Locked%403x.pngQUI3",
+              "rewardText": "direct voice trail",
+              "progressionText": "0 / 5 minutes",
+              "status": "INPROGRESS",
+              "reward": {
+                "type": "DIRECT",
+                "benefit": {
+                  "id": "602d0510e22d9a00109b0bda",
+                  "title": "direct voice trail",
+                  "tnc": "win win"
+                }
+              }
+            }
+          },
+          {
+            "type": "tile-disclaimer",
+            "data": {
+              "text": "",
+              "alignment": "center"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "id": "app-loyalty-v2-ui-test-w-list-2",
+        "components": [
+          {
+            "type": "tile-html-text",
+            "data": {
+              "title": "<ol><li>Data consumed while on the Unlimited Daily Pass will not count to the Data Guru quests.</li><li>Any rewards claimed will take up to 10 minutes to be reflected.</li><li>Your progress bar will take a few hours to be updated. Do check back to ensure that you get your reward.</li></ol>"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {}
+  },
+  "dashboard-ui-test": {
+    "_id": "dashboard-ui-test",
+    "analytics": {
+      "evtName": "Screen Display",
+      "evtData": {
+        "Screen Name": "Revamped CX Dashboard",
+        "Owner": "CX"
+      }
+    },
+    "pageWidgets": [
+      {
+        "type": "right-bottom-floating",
+        "components": []
+      }
+    ],
+    "widgets": [
+      {
+        "type": "notification-banner",
+        "id": "dashboard-ui-test-w-notification-banner-1",
+        "components": [
+          {
+            "type": "tile-notification",
+            "data": {
+              "id": 0,
+              "title": "Your outstanding bill is $72",
+              "description": "Our recent attempt to charge your card has failed.Please retry payment or update your card details.",
+              "colour": "#D9CB1818",
+              "buttonPrimary": {
+                "title": "Retry Payment",
+                "action": {
+                  "type": "payment_popup",
+                  "data": {
+                    "payment_popup": {
+                      "popupAction": "outstanding"
+                    }
+                  }
+                }
+              },
+              "buttonSecondary": {
+                "title": "QUI1update_card_button_textQUI2Update CardQUI3",
+                "action": {
+                  "type": "deeplink",
+                  "data": {
+                    "deeplink": {
+                      "link": "https://circlescare.app.link/settings-updatecreditcard"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "user-base-card",
+        "id": "dashboard-ui-test-w-user-base-card-1",
+        "components": [
+          {
+            "type": "user-base-card-usage",
+            "data": {
+              "gauge": {
+                "fillPercentage": 100,
+                "title": "19.0GB",
+                "description": "QUI1data_leftQUI2left on 4G speedsQUI3",
+                "tooltip": {
+                  "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/I-Icon.png",
+                  "action": {
+                    "type": "popup",
+                    "data": {
+                      "popup": {
+                        "title": "QUI1go_unlimitedQUI2Go Unlimited!QUI3",
+                        "description": "QUI1unlimited_descriptionQUI2Think of what you could do with 100GB! 200hrs of Netflix, 12000 songs on Spotify and even more with 4G rollover when you activate Unlimited DataQUI3",
+                        "button": {
+                          "title": "QUI1multisim_datashare_default_popup_headerQUI2Check it outQUI3",
+                          "action": {
+                            "type": "deeplink",
+                            "data": {
+                              "deeplink": {
+                                "link": "https://circlescare.app.link/2020-rollover?type=rollover"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "detailsButton": {
+                "title": "QUI1plan_detailsQUI2Plan DetailsQUI3",
+                "action": {
+                  "type": "deeplink",
+                  "data": {
+                    "deeplink": {
+                      "link": "https://circlescare.app.link/plan-usage"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "grid-max-four",
+        "id": "dashboard-ui-test-w-grid-max-four-1",
+        "components": [
+          {
+            "type": "telco-detail",
+            "data": {
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Incoming-Icon.png",
+              "title": "100",
+              "subtitle": "QUI1minsQUI2minsQUI3 QUI1leftQUI2leftQUI3"
+            },
+            "action": {
+              "type": "popup",
+              "data": {
+                "popup": {
+                  "title": "QUI1popup_payg_titleQUI2Pay-as-you-go(PAYG) chargesQUI3",
+                  "description": "QUI1popup_talktime_descriptionQUI2After exceeding your allocated minutes, you will be charged at $0.08 per minute. Check out add-ons to avoid PAYG charges!QUI3",
+                  "button": {
+                    "title": "QUI1got_itQUI2Got itQUI3",
+                    "action": {
+                      "type": "quit"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "telco-detail",
+            "data": {
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Outgoing-Icon.png",
+              "titleImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/UnlimitedUsage-Icon.png",
+              "subtitle": "QUI1minsQUI2minsQUI3"
+            },
+            "action": {
+              "type": "popup",
+              "data": {
+                "popup": {
+                  "title": "QUI1popup_unlimited_outgoing_titleQUI2Unlimited Outgoing Calls Add-on\nQUI3",
+                  "description": "QUI1popup_unlimited_outgoing_descriptionQUI2Call your sweetheart 24/7\nQUI3",
+                  "button": {
+                    "title": "QUI1got_itQUI2Got itQUI3",
+                    "action": {
+                      "type": "quit"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "telco-detail",
+            "data": {
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/SMS-Icon.png",
+              "title": "25",
+              "subtitle": "QUI1SMSQUI2SMSQUI3 QUI1leftQUI2leftQUI3"
+            },
+            "action": {
+              "type": "popup",
+              "data": {
+                "popup": {
+                  "title": "QUI1popup_payg_titleQUI2Pay-as-you-go(PAYG) chargesQUI3",
+                  "description": "QUI1popup_sms_descriptionQUI2After exceeding your allocated SMS, you will be charged at $0.05 per SMS. Check out add-ons to avoid PAYG charges!\nQUI3",
+                  "button": {
+                    "title": "QUI1got_itQUI2Got itQUI3",
+                    "action": {
+                      "type": "quit"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "id": "dashboard-ui-test-w-list-1",
+        "components": []
+      },
+      {
+        "type": "carousel-medium",
+        "id": "dashboard-ui-test-w-carousel-medium-1",
+        "header": {
+          "title": "QUI1whats_newQUI2What's NewQUI3"
+        },
+        "components": []
+      },
+      {
+        "type": "addon-expandable",
+        "id": "dashboard-ui-test-w-addon-expandable-1",
+        "header": {
+          "title": "QUI1add_ons_titleQUI2Add-onsQUI3",
+          "components": [
+            {
+              "type": "section-expander",
+              "data": {
+                "collapsedImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Down-Chevron-Icon.png",
+                "collapsedTitle": "See all",
+                "expandedImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Up-Chevron-Icon.png",
+                "expandedTitle": "See less",
+                "isExpanded": false
+              },
+              "action": {
+                "type": "expand",
+                "data": {
+                  "link": "expand"
+                }
+              },
+              "fingerprint": "dashboard-hc-section-expander-1"
+            }
+          ]
+        },
+        "components": [
+          {
+            "type": "addon-section",
+            "data": {
+              "sectionHeader": {
+                "title": "QUI1suggestedQUI2SuggestedQUI3",
+                "legends": [
+                  {
+                    "type": "legend",
+                    "data": {
+                      "color": "#B766EA",
+                      "title": "QUI1addons_legend_recurring_titleQUI2RecurringQUI3"
+                    }
+                  },
+                  {
+                    "type": "legend",
+                    "data": {
+                      "color": "#80FFFF",
+                      "title": "QUI1addons_legend_one_time_titleQUI2One-timeQUI3"
+                    }
+                  }
+                ]
+              },
+              "items": [
+                {
+                    "type": "addon-disclaimer",
+                    "data": {
+                      "title": "QUI1suggested_disclaimerQUI2Wow, all your add-ons are active!QUI3"
+                    }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$20QUI1monthly_recurringQUI2/moQUI3",
+                    "id": "PRD00678",
+                    "title": "UNLIMITED Data",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Right-Blue-Chevron.png",
+                    "color": "#B766EA",
+                    "description": "+80GB of 4G Speeds now with Rollover!"
+                  },
+                  "action": {
+                    "type": "deeplink",
+                    "data": {
+                      "deeplink": {
+                        "link": "https://circlescare.app.link/2020-rollover?type=rollover"
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Boost Tile",
+                        "Owner": "Growth",
+                        "Product Name": "UNLIMITED Data",
+                        "Product Id": "PRD00678"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$3",
+                    "id": "PRD00811",
+                    "title": "Unlimited Day Pass",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#80FFFF",
+                    "description": "Daily unlimited data on demand"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "PRD00811",
+                        "product_category": "boost",
+                        "popup_subtitle": "Unlimited Data on Demand",
+                        "title": "Unlimited Day Pass",
+                        "price": "QUI1price_formatQUI2$3.00QUI3QUI1per_dayQUI2/dayQUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Get unlimited data for the day! Data used will not eat into your monthly allowance.\n\nQUI1expires_in_less_than_hoursQUI2Expires in less than 10 QUI1hoursQUI2hoursQUI3.QUI3",
+                        "popup_footer": "QUI1addon_inactive_footerQUI2The amount will be charged immediatelyQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Boost Purchase",
+                              "Owner": "Growth",
+                              "Product Name": "Unlimited Day Pass",
+                              "Product Id": "PRD00811"
+                            }
+                          }
+                        },
+                        "popup_title": "Boost",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Boost Popup",
+                            "Owner": "Growth",
+                            "Product Name": "Unlimited Day Pass",
+                            "Product Id": "PRD00811"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Boost Tile",
+                        "Owner": "Growth",
+                        "Product Name": "Unlimited Day Pass",
+                        "Product Id": "PRD00811"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "addon-section",
+            "data": {
+              "sectionHeader": {
+                "title": "QUI1dataQUI2DataQUI3"
+              },
+              "items": [
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$20QUI1monthly_recurringQUI2/moQUI3",
+                    "id": "PRD00678",
+                    "title": "UNLIMITED Data",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Right-Blue-Chevron.png",
+                    "color": "#B766EA",
+                    "description": "+80GB of 4G Speeds now with Rollover!"
+                  },
+                  "action": {
+                    "type": "deeplink",
+                    "data": {
+                      "deeplink": {
+                        "link": "https://circlescare.app.link/2020-rollover?type=rollover"
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Boost Tile",
+                        "Owner": "Growth",
+                        "Product Name": "UNLIMITED Data",
+                        "Product Id": "PRD00678"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$3",
+                    "id": "PRD00811",
+                    "title": "Unlimited Day Pass",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#80FFFF",
+                    "description": "Daily unlimited data on demand"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "PRD00811",
+                        "product_category": "boost",
+                        "popup_subtitle": "Unlimited Data on Demand",
+                        "title": "Unlimited Day Pass",
+                        "price": "QUI1price_formatQUI2$3.00QUI3QUI1per_dayQUI2/dayQUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Get unlimited data for the day! Data used will not eat into your monthly allowance.\n\nQUI1expires_in_less_than_hoursQUI2Expires in less than 10 QUI1hoursQUI2hoursQUI3.QUI3",
+                        "popup_footer": "QUI1addon_inactive_footerQUI2The amount will be charged immediatelyQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Boost Purchase",
+                              "Owner": "Growth",
+                              "Product Name": "Unlimited Day Pass",
+                              "Product Id": "PRD00811"
+                            }
+                          }
+                        },
+                        "popup_title": "Boost",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Boost Popup",
+                            "Owner": "Growth",
+                            "Product Name": "Unlimited Day Pass",
+                            "Product Id": "PRD00811"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Boost Tile",
+                        "Owner": "Growth",
+                        "Product Name": "Unlimited Day Pass",
+                        "Product Id": "PRD00811"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$10",
+                    "id": "PRD00768",
+                    "title": "+2GB Boost",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#80FFFF",
+                    "description": "Add 2 GB to this month"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "PRD00768",
+                        "product_category": "boost",
+                        "popup_subtitle": "2.0 GB",
+                        "title": "+2GB Boost",
+                        "price": "QUI1price_formatQUI2$10.00QUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Add 2 GB to this month's data allowance instantly (one-time)",
+                        "popup_footer": "QUI1addon_inactive_footerQUI2The amount will be charged immediatelyQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Boost Purchase",
+                              "Owner": "Growth",
+                              "Product Name": "+2GB Boost",
+                              "Product Id": "PRD00768"
+                            }
+                          }
+                        },
+                        "popup_title": "Boost",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Boost Popup",
+                            "Owner": "Growth",
+                            "Product Name": "+2GB Boost",
+                            "Product Id": "PRD00768"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Boost Tile",
+                        "Owner": "Growth",
+                        "Product Name": "+2GB Boost",
+                        "Product Id": "PRD00768"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$6",
+                    "id": "PRD00733",
+                    "title": "+1GB Boost",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#80FFFF",
+                    "description": "Add 1 GB to this month"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "PRD00733",
+                        "product_category": "boost",
+                        "popup_subtitle": "1.0 GB",
+                        "title": "+1GB Boost",
+                        "price": "QUI1price_formatQUI2$6.00QUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Add 1 GB to this month's data allowance instantly (one-time).",
+                        "popup_footer": "QUI1addon_inactive_footerQUI2The amount will be charged immediatelyQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Boost Purchase",
+                              "Owner": "Growth",
+                              "Product Name": "+1GB Boost",
+                              "Product Id": "PRD00733"
+                            }
+                          }
+                        },
+                        "popup_title": "Boost",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Boost Popup",
+                            "Owner": "Growth",
+                            "Product Name": "+1GB Boost",
+                            "Product Id": "PRD00733"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Boost Tile",
+                        "Owner": "Growth",
+                        "Product Name": "+1GB Boost",
+                        "Product Id": "PRD00733"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "addon-section",
+            "data": {
+              "sectionHeader": {
+                "title": "QUI1talktimeQUI2TalktimeQUI3"
+              },
+              "items": [
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$2QUI1monthly_recurringQUI2/moQUI3",
+                    "id": "PRD00463",
+                    "title": "Unlimited Incoming Calls",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#B766EA",
+                    "description": "Pick up any calls coming your way!"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "PRD00463",
+                        "product_category": "addon",
+                        "popup_subtitle": "Call anyone 24/7. No more awkward interruptions.",
+                        "title": "Unlimited Incoming Calls",
+                        "price": "QUI1price_formatQUI2$2.00QUI3QUI1monthly_recurringQUI2/moQUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Activate limitless incoming local calls that do not take from your Talktime minutes.",
+                        "popup_footer": "QUI1addon_inactive_recurrent_footerQUI2The amount will be charged in your next bill and will recur every month afterQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Button",
+                              "Owner": "Growth",
+                              "Product Name": "Unlimited Incoming Calls",
+                              "Product Id": "PRD00463",
+                              "Button Name": "Addon Subscribe",
+                              "Button Position": "Addon Popup"
+                            }
+                          }
+                        },
+                        "popup_title": "Unlimited Incoming Calls",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Addon Popup",
+                            "Owner": "Growth",
+                            "Product Name": "Unlimited Incoming Calls",
+                            "Product Id": "PRD00463"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Tile",
+                        "Owner": "Growth",
+                        "Product Name": "Unlimited Incoming Calls",
+                        "Product Id": "PRD00463",
+                        "Button Name": "Addon Unlimited Incoming Calls",
+                        "Button Position": "Dashboard addon section"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$20QUI1monthly_recurringQUI2/moQUI3",
+                    "id": "IDD_PACK1_350",
+                    "title": "IDD Plus",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#B766EA",
+                    "description": "Call up to 350 mins/mo across 15 countries"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "IDD_PACK1_350",
+                        "product_category": "addon",
+                        "popup_subtitle": "Call up to 350 mins/mo across 15 countries",
+                        "title": "IDD Plus",
+                        "price": "QUI1price_formatQUI2$20.00QUI3QUI1monthly_recurringQUI2/moQUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Call up to 350 mins / mo across Australia, Bangladesh, Brunei, Canada, China, France, Hong Kong, India, Indonesia, Malaysia, New Zealand, South Korea, Thailand, UK, and USA!",
+                        "popup_footer": "QUI1addon_inactive_recurrent_footerQUI2The amount will be charged in your next bill and will recur every month afterQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Button",
+                              "Owner": "Growth",
+                              "Product Name": "IDD Plus",
+                              "Product Id": "IDD_PACK1_350",
+                              "Button Name": "Addon Subscribe",
+                              "Button Position": "Addon Popup"
+                            }
+                          }
+                        },
+                        "popup_title": "IDD Plus",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Addon Popup",
+                            "Owner": "Growth",
+                            "Product Name": "IDD Plus",
+                            "Product Id": "IDD_PACK1_350"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Tile",
+                        "Owner": "Growth",
+                        "Product Name": "IDD Plus",
+                        "Product Id": "IDD_PACK1_350",
+                        "Button Name": "Addon IDD Plus",
+                        "Button Position": "Dashboard addon section"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$10QUI1monthly_recurringQUI2/moQUI3",
+                    "id": "IDD_PACK1_100",
+                    "title": "IDD Calls",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Plus-Btn.png",
+                    "color": "#B766EA",
+                    "description": "Call up to 150 mins/mo across 15 countries"
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "IDD_PACK1_100",
+                        "product_category": "addon",
+                        "popup_subtitle": "Call up to 150 mins/mo across 15 countries",
+                        "title": "IDD Calls",
+                        "price": "QUI1price_formatQUI2$10.00QUI3QUI1monthly_recurringQUI2/moQUI3QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Call up to 150 mins/mo across Australia, Bangladesh, Brunei, Canada, China, France, Hong Kong, India, Indonesia, Malaysia, New Zealand, South Korea, Thailand, UK, and USA!",
+                        "popup_footer": "QUI1addon_inactive_recurrent_footerQUI2The amount will be charged in your next bill and will recur every month afterQUI3",
+                        "product_action": "subscribe",
+                        "popup_button": {
+                          "title": "QUI1enableQUI2EnableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Button",
+                              "Owner": "Growth",
+                              "Product Name": "IDD Calls",
+                              "Product Id": "IDD_PACK1_100",
+                              "Button Name": "Addon Subscribe",
+                              "Button Position": "Addon Popup"
+                            }
+                          }
+                        },
+                        "popup_title": "IDD Calls",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Addon Popup",
+                            "Owner": "Growth",
+                            "Product Name": "IDD Calls",
+                            "Product Id": "IDD_PACK1_100"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Tile",
+                        "Owner": "Growth",
+                        "Product Name": "IDD Calls",
+                        "Product Id": "IDD_PACK1_100",
+                        "Button Name": "Addon IDD Calls",
+                        "Button Position": "Dashboard addon section"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "addon-section",
+            "data": {
+              "sectionHeader": {
+                "title": "QUI1activeQUI2ActiveQUI3"
+              },
+              "items": [
+                {
+                  "type": "addon-tile",
+                  "data": {
+                    "subtitle": "$8QUI1monthly_recurringQUI2/moQUI3",
+                    "id": "PRD00826",
+                    "title": "Unlimited Outgoing Calls",
+                    "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Active-Btn.png",
+                    "color": "#B766EA",
+                    "description": "Now you can call your sweetheart 24/7."
+                  },
+                  "action": {
+                    "type": "product_popup",
+                    "data": {
+                      "product_popup": {
+                        "id": "PRD00826",
+                        "product_category": "addon",
+                        "popup_subtitle": "",
+                        "title": "Unlimited Outgoing Calls",
+                        "price": "QUI1addon_popup_astrixQUI2addon_popup_astrixQUI3",
+                        "addon_type": "paid",
+                        "popup_description": "Call your sweetheart, family, friends or even your neighbours 24/7 when you enable Unlimited Outgoing Calls.",
+                        "popup_footer": "QUI1addon_active_footerQUI2Paid add-on will be disabled from next bill cycleQUI3",
+                        "product_action": "unsubscribe",
+                        "popup_button": {
+                          "title": "QUI1disableQUI2DisableQUI3",
+                          "analytics": {
+                            "evtName": "Tap",
+                            "evtData": {
+                              "Item Name": "Button",
+                              "Owner": "Growth",
+                              "Product Name": "Unlimited Outgoing Calls",
+                              "Product Id": "PRD00826",
+                              "Button Name": "Addon UnSubscribe",
+                              "Button Position": "Addon Popup"
+                            }
+                          }
+                        },
+                        "popup_title": "Unlimited Outgoing Calls",
+                        "analytics": {
+                          "evtName": "Item Display",
+                          "evtData": {
+                            "Item Name": "Addon Popup",
+                            "Owner": "Growth",
+                            "Product Name": "Unlimited Outgoing Calls",
+                            "Product Id": "PRD00826"
+                          }
+                        },
+                        "purchase_status": {
+                          "purchase_success": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          },
+                          "purchase_failure": {
+                            "analytics": null,
+                            "popup": {
+                              "title": "",
+                              "description": "",
+                              "button": {
+                                "title": ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Tile",
+                        "Owner": "Growth",
+                        "Product Name": "Unlimited Outgoing Calls",
+                        "Product Id": "PRD00826",
+                        "Button Name": "Addon Unlimited Outgoing Calls",
+                        "Button Position": "Dashboard addon section"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "tag": {
+          "name": "local-addon",
+          "action": {
+            "type": "expand",
+            "data": {
+              "link": "expand"
+            }
+          }
+        }
+      },
+      {
+        "type": "grid-max-two-expandable",
+        "id": "dashboard-ui-test-w-grid-max-two-expandable-1",
+        "header": {
+          "title": "Explore",
+          "components": [
+            {
+              "type": "section-expander",
+              "data": {
+                "collapsedImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Down-Chevron-Icon.png",
+                "collapsedTitle": "See all",
+                "expandedImage": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Up-Chevron-Icon.png",
+                "expandedTitle": "QUI1see_lessQUI2See lessQUI3",
+                "isExpanded": true
+              },
+              "action": {
+                "type": "expand",
+                "data": {
+                  "link": "expand"
+                }
+              },
+              "fingerprint": "dashboard-hc-section-expander-2"
+            }
+          ]
+        },
+        "components": [
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1stage_ms_billing_descQUI2View upcoming, past bills and get usage logQUI3",
+              "id": "billing",
+              "image": "QUI1stage_ms_billing_imageQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Billing-Icon.pngQUI3",
+              "title": "QUI1ms_billingQUI2BillingQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/bills"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-billing"
+          },
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1ms_referral_descQUI2Stand a chance to win a Prism+ Q55 QE TV!QUI3",
+              "id": "referral",
+              "image": "QUI1ms_referral_imgQUI2https://circles-marketing.s3-ap-southeast-1.amazonaws.com/Referral/ReferralDec-Icon+Copy+4.pngQUI3",
+              "title": "QUI1ms_referralQUI2ReferralQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/referral"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-referral"
+          },
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1ms_family_plan_descQUI2Manage your family planQUI3",
+              "id": "familplan",
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/famplan/E2N/SG-Explore-FamPlan.png",
+              "title": "QUI1ms_family_planQUI2Family PlanQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/family-plan-summary"
+                }
+              },
+              "analytics": {
+                "evtName": "Tap",
+                "evtData": {
+                  "Item Location": "Dashboard explore section",
+                  "Item Name": "Family Plan",
+                  "Item Type": "Tile",
+                  "Owner": "Growth",
+                  "Product Name": "Family Plan"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-familyplan"
+          },
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1get_secondary_simQUI2Get your secondary SIM hereQUI3",
+              "id": "multi-sim",
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/MultiSIM-L-Icon.png",
+              "secondaryDescription": "",
+              "secondaryDescriptionType": "",
+              "title": "QUI1ms_multi_simQUI2Multi-SIMQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/secondary-sim-home?product_code=secondarysim"
+                }
+              },
+              "analytics": {
+                "evtName": "Tap",
+                "evtData": {
+                  "Item Name": "Explore",
+                  "Owner": "Growth",
+                  "Product Name": "",
+                  "Product Id": "multi-sim"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-multi-sim"
+          },
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1ms_idd_descQUI2View pay-as-you-go IDD ratesQUI3",
+              "id": "idd-rates",
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/IDDRates-Icon.png",
+              "title": "QUI1ms_iddQUI2IDD ratesQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/settings-rates"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-idd-rates"
+          },
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1ms_customize_descQUI2Build your plan how you wantQUI3",
+              "id": "customize",
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/app/App+Revamp+-+PNG+Icons/Customise-Icon.png",
+              "title": "QUI1ms_customizeQUI2CustomizeQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/customize"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-customize"
+          },
+          {
+            "type": "manage-tile",
+            "data": {
+              "description": "QUI1ms_devices_descQUI2Your next phone & tablet, now at your fingertipsQUI3",
+              "id": "shop-phones",
+              "image": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/sg-campaigns/Phones-manage-icon-min.png",
+              "title": "QUI1ms_devicesQUI2DevicesQUI3"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/shop-phone"
+                }
+              }
+            },
+            "fingerprint": "dashboard-ac-manage-tile-shop-phones"
+          }
+        ],
+        "tag": {
+          "name": "local-manage",
+          "action": {
+            "type": "expand",
+            "data": {
+              "link": "expand"
+            }
+          }
+        }
+      },
+      {
+        "type": "list",
+        "id": "dashboard-ui-test-w-list-2",
+        "header": {
+          "title": "QUI1dashboard_ui_test_referral_titleQUI2Invite your friends to Circles.LifeQUI3 and QUI1TEST_LOCALEQUI2testQUI3 end"
+        },
+        "components": [
+          {
+            "type": "tile-image",
+            "data": {
+              "image_url": "https://circles-marketing.s3.ap-southeast-1.amazonaws.com/Referral/July+-+Data+Glow/referral+section+banner+-++500x125px%403x.png"
+            },
+            "action": {
+              "type": "deeplink",
+              "data": {
+                "deeplink": {
+                  "link": "https://circlescare.app.link/referral"
+                }
+              },
+              "analytics": {
+                "evtName": "Tap",
+                "evtData": {
+                  "Owner": "CX",
+                  "Item Name": "Banner",
+                  "Banner Position": "dashboard"
+                }
+              }
+            }
+          },
+          {
+            "type": "tile-text",
+            "data": {
+              "title": "",
+              "subtitle": "Happy with us? It shows. Your friends see it too. Share your feeling with them by sharing your code.\nWhen they become part of Circles.Life, all of you will get 3-mo Unlimited Data. And you get 12-mo if it’s your first referral ever."
+            }
+          },
+          {
+            "type": "tile-horizontal-buttons",
+            "data": {
+              "alignment": "center",
+              "subcomponents": [
+                {
+                  "type": "tile-button-secondary",
+                  "data": {
+                    "title": "Find out more"
+                  },
+                  "action": {
+                    "type": "deeplink",
+                    "data": {
+                      "deeplink": {
+                        "link": "https://circlescare.app.link/referral"
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Button",
+                        "Owner": "CX",
+                        "Button Name": "Find out more",
+                        "Button Position": "dashboard referral section",
+                        "Product Name": "Referral"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "tile-button-secondary",
+                  "data": {
+                    "title": "Share code"
+                  },
+                  "action": {
+                    "type": "referral_share",
+                    "data": {
+                      "referral_share": {
+                        "referral_message": "Noticed I’ve been less stressed about my telco lately?? It’s because I’ve been with Circles.Life and they are just the b-e-s-t. Super hassle-free service (no contracts, v flexible plans, A+ customer support) and lots of added perks: like 3 months Unlimited Data (worth $60!) for free when you sign up. Use my code KOIHIRWU to get a plan and thank me next time we hang🤗\n https://qsg-webfrontek.circles.life/activate/sa_delivery?reset=1&code=KOIHIRWU&utm_source=organic&utm_medium=app&utm_campaign=referral",
+                        "referral_code": "KOIHIRWU",
+                        "share_on_ig": {
+                          "format": "sticker",
+                          "image_url": "https://circles-marketing.s3-ap-southeast-1.amazonaws.com/sg-campaigns/PI-4867+IG+Referral+Banner+/SG-referral-template+1x.png",
+                          "message": "KOIHIRWU",
+                          "message_text_color": "FFFFFF",
+                          "text_top_alignment_percent": 31.77
+                        }
+                      }
+                    },
+                    "analytics": {
+                      "evtName": "Tap",
+                      "evtData": {
+                        "Item Name": "Button",
+                        "Owner": "CX",
+                        "Button Name": "Share code",
+                        "Button Position": "dashboard referral section",
+                        "Product Name": "Referral"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

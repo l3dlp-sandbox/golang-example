@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script src="https://stg.static.mul-pay.jp/ext/js/token.js"></script>
+</head>
+<body>
+
+</body>
+<footer>
+    <script type="text/javascript">
+        Multipayment.init( 'tshop00047230');
+        Multipayment.getToken(
+            {
+                cardno: '4111111111111111',
+                expire: '201501',
+                securitycode:'111',
+                holdername:'SOME HOLDER',
+                tokennumber: '2'
+            },
+      (response) => {
+          console.log("response = ", response);
+          console.log(response.tokenObject.token);
+      }
+        );
+    </script>
+</footer>
+</html>
+
+
+
+

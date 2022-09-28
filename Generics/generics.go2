@@ -1,0 +1,8 @@
+package Generics
+
+import "golang.org/x/exp/constraints"
+
+
+func GenericSquare[T constraints.Ordered](){
+
+}
