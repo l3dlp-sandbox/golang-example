@@ -19,9 +19,16 @@
       (response) => {
           console.log("response = ", response);
           console.log(response.tokenObject.token);
+          fetch("http://localhost:8080/token",{
+              method: 'POST',
+              body: JSON.stringify(response.tokenObject.token)
+          }).then(()=>{
+              window.close()
+          })
       }
         );
     </script>
+
 </footer>
 </html>
 

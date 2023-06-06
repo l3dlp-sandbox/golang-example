@@ -3,6 +3,10 @@ package Generics
 import "golang.org/x/exp/constraints"
 
 
-func GenericSquare[T constraints.Ordered](){
-
+func GenericSquare[T constraints.Ordered](x,y T)T{
+	if x > y{
+		return x
+	}else {
+		return y
+	}
 }

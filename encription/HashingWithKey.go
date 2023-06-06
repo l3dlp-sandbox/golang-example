@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"crypto/aes"
 	"crypto/cipher"
+	"github.com/prometheus/common/log"
 	"strconv"
 	"strings"
 	"io"
-	"gitlab.mytaxi.lk/pickme/go-util/log"
 )
 
 func CreateHash()string{
@@ -45,7 +45,7 @@ func Decrypt(data []byte, password string) []byte {
 	key := []byte(CreateHash())
 	block, err := aes.NewCipher(key)
 	if err != nil {
-		log.Info("ERROR getting cipher: ", err)
+		fmt.Println("ERROR getting cipher: ", err)
 		panic(err.Error())
 	}
 	gcm, err := cipher.NewGCM(block)

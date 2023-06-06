@@ -1,8 +1,11 @@
 package main
 
 import (
-	_ "github.com/go-sql-driver/mysql"
-	_ "net/http/pprof"
+	"crypto/sha256"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
 )
 
 func main() {
@@ -265,7 +268,7 @@ func main() {
 	//time.TimeDemo()
 	//pointerReceiverMethodAndIteration.Demo()
 	//pointerReceiverMethodAndIteration.DeferWithRange()
-    //jwt.JwtMain()
+	//jwt.JwtMain()
 	//context.WithTimeOutDemo()
 	//enterprices_customer.MainEnterpricesCustomer()
 	//sm.StructMapDemo()
@@ -305,5 +308,117 @@ func main() {
 	//})
 	//http.ListenAndServe(":8080",nil)
 	//s:=fmt.Sprintf()
+	//var  x *int= nil
+	//fmt.Println(*x)
+
+	//for i:=0;i<10;i++{
+	//	fmt.Println(rand.Intn(2))
+	//}
+	//OneMillionPerformance.SplitFiles()
+	//for i:=0;i<100;i++{
+	//	load()
+	//}
+	//load()
+	//loadPostForm()
+	//encription.Sha256()
+	//encription.Md5()
+	//web.EmbeddedFileServerMain()wai
+	//req, err := http.NewRequest(http.MethodGet, "http://scl-mobkd.cxos.tech/v4/cl/en/mobile/settings/option/list/get?app_type=ecosystem&option_id=autoboost_limit%2Csettings_show_autoboost_limit%2Cidentity_info&uuid=<no value>", nil)
+	//if err != nil{
+	//	fmt.Println(err)
+	//}
+	//
+	//headers := map[string][]string{
+	//	"Child-sin":{""},
+	//	"Content-Type":{"application/json"},
+	//	"Service-Id":{"Quilt"},
+	//	"User-Agent":{"selfcare/1.0.0-B2B-RC2-qa_7d6c5bb6 Android/11 Nokia 3.4/en_GB"},
+	//	"User-Id":{"JP-CGJV9GDCVEMY"},
+	//	"X-AUTH":{"eyJhbGciOiJSUzI1NiIsImtleV9pZCI6IjYzYTRmNWQ2YTYyZjZhOTZlMjlmYTE3N2VkZDJmMWM1IiwidHlwIjoiSldUIn0.eyJkZXZpY2VfdHlwZSI6Ik1vYmlsZSIsImV4cGlyeV90aW1lIjoxNjQ3OTQxMDc4LCJleHRlcm5hbF9pZCI6IkpQLUNHSlY5R0RDVkVNWSIsImlzcyI6ImNpcmNsZXMiLCJsb2dpbl90aW1lIjoxNjQ3OTQwMTc4LCJ0eXAiOjV9.O2GF5WXH_HAzINc_OTOHyFoVReRBuwtkp7MXJj54EeqFMcZA6-YPeTI_CRPUPkpGjvFD-wk3fv_cgBlss6Ba18tCY5oGkie3lc9ld1AyUd3B_0Rl7zc0mMgx9cIXWkIh9X3Z-THl0y91hmEnIUydxddW3mDK0B0q7BBXo8H2ss-l1kya-Pej1gvhfD9G1UvmICDXoec8nd0JoY0oN0pCr2dypGwBaGzrKYLk6CXzTrOPcl2_4507PVWcInulU361HoObn8AGD20TTrMbGYl1Y7YUlSWCnWofA4yGL_TuZFBldwzjYeI1VAE6r6dqr-d5QeKAsxxJVanDFmE-a225rw"},
+	//	"X-Deviceid":{"ffffffff-bbc7-d7ca-0000-017fb070e7bacom.circles.selfcare.xx.qa"},
+	//	"X-Newrelic-Id":{"VQ4BUlNSARABVFVVDwQBV1IB"},
+	//	"X-Newrelic-Transaction": {"PxQCBAJWAANSU1hVU1NVBVcFFB8EBw8RVU4aV11cAQoDBw5YBgVRAAcFA0NKQQ1SBwJZBFEBFTs="},
+	//	"X-Request-Id":{"b7b98e56-1d9b-4f55-81a3-2d653d38ef90"},
+	//	"X-Source":{"QuiLt"},
+	//	"x-app-version":{""},
+	//}
+	//req.Header = headers
+	//
+	//res, reqErr := http.DefaultClient.Do(req)
+	//if reqErr != nil{
+	//	fmt.Println(reqErr)
+	//}
+	//b,_:=ioutil.ReadAll(res.Body)
+	//fmt.Println(string(b))
+
+	//url := "http://scl-mobkd.cxos.tech/v4/cl/en/mobile/settings/option/list/get?app_type=ecosystem&option_id=autoboost_limit%252Csettings_show_autoboost_limit%252Cidentity_info&uuid=%3Cno%20value%3E"
+	//method := "GET"
+	//
+	//client := &http.Client {
+	//}
+	//req, err := http.NewRequest(method, url, nil)
+	//
+	//if err != nil {
+	//	fmt.Println(err)
+	//	return
+	//}
+	//req.Header.Add("Child-sin", "")
+	//req.Header.Add("Content-Type", "application/json")
+	//req.Header.Add("Service-Id", "Quilt")
+	//req.Header.Add("User-Agent", "selfcare/1.0.0-B2B-RC2-qa_7d6c5bb6 Android/11 Nokia 3.4/en_GB")
+	//req.Header.Add("User-Id", "JP-CGJV9GDCVEMY")
+	//req.Header.Add("X-AUTH", "eyJhbGciOiJSUzI1NiIsImtleV9pZCI6IjYzYTRmNWQ2YTYyZjZhOTZlMjlmYTE3N2VkZDJmMWM1IiwidHlwIjoiSldUIn0.eyJkZXZpY2VfdHlwZSI6Ik1vYmlsZSIsImV4cGlyeV90aW1lIjoxNjQ3OTQxMDc4LCJleHRlcm5hbF9pZCI6IkpQLUNHSlY5R0RDVkVNWSIsImlzcyI6ImNpcmNsZXMiLCJsb2dpbl90aW1lIjoxNjQ3OTQwMTc4LCJ0eXAiOjV9.O2GF5WXH_HAzINc_OTOHyFoVReRBuwtkp7MXJj54EeqFMcZA6-YPeTI_CRPUPkpGjvFD-wk3fv_cgBlss6Ba18tCY5oGkie3lc9ld1AyUd3B_0Rl7zc0mMgx9cIXWkIh9X3Z-THl0y91hmEnIUydxddW3mDK0B0q7BBXo8H2ss-l1kya-Pej1gvhfD9G1UvmICDXoec8nd0JoY0oN0pCr2dypGwBaGzrKYLk6CXzTrOPcl2_4507PVWcInulU361HoObn8AGD20TTrMbGYl1Y7YUlSWCnWofA4yGL_TuZFBldwzjYeI1VAE6r6dqr-d5QeKAsxxJVanDFmE-a225rw")
+	//req.Header.Add("X-Deviceid", "ffffffff-bbc7-d7ca-0000-017fb070e7bacom.circles.selfcare.xx.qa")
+	//req.Header.Add("X-Newrelic-Id", "VQ4BUlNSARABVFVVDwQBV1IB")
+	//req.Header.Add("X-Newrelic-Transaction", "PxQCBAJWAANSU1hVU1NVBVcFFB8EBw8RVU4aV11cAQoDBw5YBgVRAAcFA0NKQQ1SBwJZBFEBFTs=")
+	//req.Header.Add("X-Request-Id", "b7b98e56-1d9b-4f55-81a3-2d653d38ef90")
+	//req.Header.Add("X-Source", "QuiLt")
+	//req.Header.Add("x-app-version", "")
+	//
+	//res, err := client.Do(req)
+	//if err != nil {
+	//	fmt.Println(err)
+	//	return
+	//}
+	//defer res.Body.Close()
+	//
+	//body, err := ioutil.ReadAll(res.Body)
+	//if err != nil {
+	//	fmt.Println(err)
+	//	return
+	//}
+	//fmt.Println(string(body))
+	// You can edit this code!
+	// Click here and start typing.
+	//gracefull_shutdown_server.MainStartHttpServer()
+	//oop.CreateBird()
+	//cgo.Cmain()
+	//str := "{\"alphabet\":{\"id\":\"A\"\"name\":\"dam\"}}"
+	//c := ABC{}
+	//err := json.Unmarshal([]byte(str), &c)
+	//fmt.Println(err)
+	//fmt.Println(c)
+
+	//validateHash("55b62c36b409b0b7348730a0af8721aa2dd8fc7b0e304d7ae97036f6987ae036", "CXT-LHI9PVYAAN", "YF_XKbGlXC5GKShg2WW8LLmg", "17297", "000")
+	http.HandleFunc("/v4/cl/en-US/dev_test/internal/call-back/payment", handler)
+	log.Fatal(http.ListenAndServe(":3002", nil))
 }
 
+func handler(w http.ResponseWriter, r *http.Request) {
+	b, e := ioutil.ReadAll(r.Body)
+	if e != nil {
+		fmt.Println(e)
+	}
+	fmt.Println(string(b))
+	return // Send "Hello, World!" as the response
+}
+
+func validateHash(validationHash, basketId, merchantSecretKey, merchantId, errCode string) bool {
+	h := sha256.New()
+	composedString := fmt.Sprintf("%s|%s|%s|%s", basketId, merchantSecretKey, merchantId, errCode)
+	h.Write([]byte(composedString))
+	hash := h.Sum(nil)
+	encoded := fmt.Sprintf("%x", hash)
+	fmt.Println(encoded)
+	return encoded == validationHash
+}
